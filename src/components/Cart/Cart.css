@@ -1,0 +1,14 @@
+
+.cart_title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #1c2b35;
+}
+
+.cart {
+    position: sticky;
+    top: 0;
+}
