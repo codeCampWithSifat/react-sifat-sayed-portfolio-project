@@ -1,0 +1,22 @@
+.review_img img {
+  width: 91px;
+}
+.single_review_container {
+    display: flex;
+    border: 1px solid #95a0A7;
+    border-radius: 8px;
+    padding: 8px;
+    width: 571px;
+    margin:1rem auto;
+}
+
+.review_item_detail_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review_item_detail{
+    margin-left: 1rem;
+}

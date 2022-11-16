@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./Header.css"
 import { FaTimes } from 'react-icons/fa';
 import {GiHamburgerMenu} from "react-icons/gi";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [menu , setMenu] = useState(false);
@@ -10,10 +11,10 @@ const Header = () => {
         <h2 className='hero-text'>Sifat Shop </h2>
         <nav>
             <ul className="hero_container">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#review">Order Review</a></li>
-                <li><a href="#inventory">Manage Inventory</a></li>
-                <li><a href="#login">Login</a></li>
+                <li><Link to="/shop">Shop</Link></li>
+                <li><Link to="/orders">Orders</Link></li>
+                <li><Link to="/inventory">Inventory</Link></li>
+                <li><Link to="/about">About</Link></li>
             </ul>
             
         </nav>
